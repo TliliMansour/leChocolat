@@ -54,3 +54,21 @@ body{
         bottom: 0px;
         z-index: +1;
     }
+    .price-widgets img{
+        height: 200px;
+        margin-top: -90px;
+        width: 70%;
+        position: relative;
+        left: 25%;
+         border-radius: 450px;
+        }
+    .price-widgets {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:150px;
+        position: relative;
+        left: 0%
+     
+        }
+     

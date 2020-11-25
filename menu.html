@@ -9,9 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
+     <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link href="css/Styles.css" rel="stylesheet">
+    <!-- endbuild -->
+    
 </head>
 
 <body>
@@ -24,7 +27,7 @@
             </button>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>
+                    <li class="nav-item active"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span>
                             Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span
                                 class="fa fa-info fa-lg"></span> About</a></li>
@@ -33,6 +36,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><span
                                 class="fa fa-address-card fa-lg"></span>
                             Contact</a></li>
+                            
                 </ul>
                 <span class="navbar-text">
                     <a data-toggle="modal" data-target="#loginModal">
@@ -208,14 +212,58 @@
         <div class="row row-align-item-center">
             <div class="col-12">
                 <h3>Menu</h3>
-                <h3>Uner heavy construction</h3>
+                <div class="price-widgets text-center" >
+                    <div class="row">
+                        <div class="col-lg-3 card-one">
+                                <div class="card text-white bg-dark mb-3" >
+                                     <img src="images/white choc.jpg"> 
+                                      <div class="card-body"> 
+                                        <div class="card-top ">  White chocolate </div>
+                                         <p class="card-text"> 10$  </p>
+                                        <a class="btn btn-danger btn-block" href=" ">Order</a>  
+                                      </div> 
+                                    </div>
+                                </div>
+                            <div class="col-lg-3 card-two">
+                                <div class="card text-white bg-dark mb-3"  >
+                                     <img src="images/Black choc.jpg"> 
+                                      <div class="card-body">
+                                        <div class="card-top "> Black chocolate </div>
+                                      <p class="card-text"> 8$   </p>
+                                        <a class="btn btn-danger btn-block" href=" "> Order</a>  
+                                      </div> 
+                                    </div> 
+                                </div>
+                            <div class="col-lg-3 card-three">
+                                    <div class="card text-white bg-dark mb-3"  >
+                                      <img src="images/milk choco.jpg"> 
+                                      <div class="card-body">
+                                        <div class="card-top "> Milk Chocolat  </div>
+                                        <p class="card-text">8$   </p>
+                                            <a class="btn btn-danger btn-block" href=" "> Order </a> 
+                                      </div>
+                                    </div>
+                            </div>
+                            <div class="col-lg-3 card-four">
+                                    <div class="card text-white bg-dark mb-3"  >
+                                      <img src="images/candy.jpg"> 
+                                      <div class="card-body">
+                                        <div class="card-top "> Chocolat candy </div>
+                                        <p class="card-text">15$   </p>
+                                            <a class="btn btn-danger btn-block" href=" "> Order </a> 
+                                      </div>
+                                    </div>
+                            </div>
+                     
+                    
+                    </div>
 
             </div>
         </div>
 
     </div>
-
-
+    </div>
+    <br><br><br><br>
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -266,16 +314,19 @@
         </div>
     </footer>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <!-- endbuild -->
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+
 </body>
 
 
